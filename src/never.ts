@@ -6,7 +6,7 @@ function error(message: string): never {
 
 try {
   let result = error('test');
-  console.log({result});
+  console.log({result}); // これは実行されない
 } catch(error) {
   console.log({error});
 }
